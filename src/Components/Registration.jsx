@@ -25,8 +25,8 @@ function Registration() {
   };
 
   return (
-    <div className="flex items-center justify-center p-12">
-      <div className="mx-auto w-full max-w-[550px] bg-white">
+    <div className="flex items-center min-h-screen justify-center p-12 bg-gradient-to-r from-slate-900 to-slate-700">
+      <div className="mx-auto w-full max-w-[550px] bg-slate-200 p-10  rounded">
         <form>
           <div className="mb-5">
             <input
@@ -73,7 +73,7 @@ function Registration() {
               </label>
               {selectedEvents.includes("hack") && (
                 <div className="mb-5 ml-0 space-y-4">
-                  <label className="mb-3 block text-xl font-medium text-[#07074D]">
+                  <label className="mb-3 text-center block text-xl font-medium text-[#07074D]">
                     Team Details
                   </label>
                   <div className="mb-5">
