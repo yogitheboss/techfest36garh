@@ -16,9 +16,10 @@ Time:
 <br />
 Location: 
 <br />
+<br />
+
 
 Overview:
-<br />
 <br />
 
 Welcome to Hackathon 2024, a thrilling 48-hour event where creativity meets technology! Whether you’re a coding wizard, a design guru, or a problem-solving enthusiast, this is your chance to collaborate with like-minded innovators and turn your ideas into reality. Our hackathon is designed to challenge your skills, spark new ideas, and provide an opportunity to make a real impact.</p>
