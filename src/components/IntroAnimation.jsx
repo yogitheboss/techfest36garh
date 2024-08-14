@@ -30,12 +30,12 @@ function IntroAnimation() {
       >
         <h1
           className="text-blue-200 
-        text-9xl font-bold"
+        text-5xl md:text-9xl font-bold"
           id="welcome"
         >
           Tech 36
         </h1>
-        <p className="p-3 text-2xl text-blue-300" id="intro">
+        <p className="p-3 md:text-3xl md:text-2xl text-blue-300" id="intro">
           Technical festival of Technical Education Chhattisgarh
         </p>
         <Carousel />
