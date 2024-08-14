@@ -7,7 +7,7 @@ const Events = () => {
         <h1 className="text-4xl sm:text-5xl text-blue-200  md:text-6xl lg:text-7xl xl:text-8xl text-center font-bold p-6 md:p-20 ">
           Events
         </h1>
-        <ul className="w-full max-w-3xl">
+        <ul className="w-full max-w-3xl text-blue-300">
           <li>
             <Link to={"/hackathon"}>
               <h2 className="text-xl sm:text-2xl md:text-3xl text-center m-4 sm:m-6 md:m-8 font-semibold">
@@ -58,6 +58,9 @@ const Events = () => {
             </Link>
           </li>
         </ul>
+        <Link to="/registration" className="flex justify-center">
+          <button className="bg-gradient-to-r text-xl from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500  text-white font-bold py-2 px-4 rounded m-8">Register Now</button>
+        </Link>
       </div>
     </section>
   );

@@ -19,7 +19,12 @@ function IntroAnimation() {
       duration: 1,
       y: "+=50",
       stagger: 0.5,
-    })
+    }).from(["button"],{
+      opacity: 0,
+      duration: 1,
+      y: "+=50",
+      stagger: 0.5,
+    },"-=0.5");
   }, [container]);
 
   return (
@@ -39,6 +44,7 @@ function IntroAnimation() {
           Technical festival of Technical Education Chhattisgarh
         </p>
         <Carousel />
+        
       </div>
     </div>
   );
