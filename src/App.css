@@ -1,0 +1,37 @@
+.active{
+    display: flex;
+    animation: fadein  0.5s;
+}
+.inactive{
+    opacity: 0;
+    animation: fadeout  0.5s;
+}
+.image{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+        transform:  translateX(100%) scale(0.25);
+        
+    }
+    to{
+        opacity: 1;
+        transform:  translateX(0%) scale(1);
+        
+    }
+}
+@keyframes fadeout {
+    from{
+        opacity: 1;
+        transform:  translateX(0%) scale(1);
+        
+    }
+    to{
+        opacity: 0;
+        transform:  translateX(-100%) scale(0.25);
+        
+    }
+}
