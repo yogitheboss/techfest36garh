@@ -26,7 +26,9 @@ function Registration() {
 
   return (
     <div className="flex items-center min-h-screen justify-center p-12 bg-gradient-to-r from-slate-900 to-slate-700">
-      <div className="mx-auto w-full max-w-[550px] bg-slate-200 p-10  rounded">
+      <div className="mx-auto w-full max-w-[550px] bg-slate-200 p-6 pt-30 rounded-2xl">
+        <h1 className="text-center mb-3 block text-4xl font-medium text-[#07074D] leading-relaxed ">Event Registration Form</h1>
+
         <form>
           <div className="mb-5">
             <input
@@ -118,7 +120,7 @@ function Registration() {
               </label>
               {selectedEvents.includes("Coding") && (
                 <div className="mb-5">
-                  <label className="mb-3 block text-base font-medium text-[#07074D]">
+                  <label className="mb-3 block text-center text-base font-medium text-[#07074D]">
                     Team Details
                   </label>
                   <div className="mb-5">
@@ -163,7 +165,7 @@ function Registration() {
               </label>
               {selectedEvents.includes("OtherTeam") && (
                 <div className="mb-5">
-                  <label className="mb-3 block text-base font-medium text-[#07074D] ">
+                  <label className="mb-3 block text-center text-base font-medium text-[#07074D] ">
                     Team Details
                   </label>
                   <div className="mb-5">
