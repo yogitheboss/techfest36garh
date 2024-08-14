@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Events = () => {
@@ -17,36 +16,46 @@ const Events = () => {
             </Link>
           </li>
           <li>
-            <Link to={"/research"}>
-              <h2 className="text-xl sm:text-2xl md:text-3xl text-center m-4 sm:m-6 md:m-8 font-semibold">
+            <Link to={"/Research"}>
+              <h2 className=" text-3xl   flex justify-center m-8  font-semibold">
                 Student research papers
               </h2>
             </Link>
           </li>
           <li>
-            <h2 className="text-xl sm:text-2xl md:text-3xl text-center m-4 sm:m-6 md:m-8 font-semibold">
-              Working model demonstration by companies
-            </h2>
+            <Link to={"/model"}>
+              <h2 className=" text-3xl   flex justify-center m-8  font-semibold">
+                Working model demonstration by companies
+              </h2>
+            </Link>
           </li>
           <li>
-            <h2 className="text-xl sm:text-2xl md:text-3xl text-center m-4 sm:m-6 md:m-8 font-semibold">
-              Technical quiz
-            </h2>
+            <Link to={"/Technicalquiz"}>
+              <h2 className=" text-3xl  flex justify-center m-8 font-semibold">
+                Technical quiz
+              </h2>
+            </Link>
           </li>
           <li>
-            <h2 className="text-xl sm:text-2xl md:text-3xl text-center m-4 sm:m-6 md:m-8 font-semibold">
-              Idea pitching
-            </h2>
+            <Link to={"/Ideapitching"}>
+              <h2 className=" text-3xl  flex justify-center m-8  font-semibold">
+                Idea pitching
+              </h2>
+            </Link>
           </li>
           <li>
-            <h2 className="text-xl sm:text-2xl md:text-3xl text-center m-4 sm:m-6 md:m-8 font-semibold">
-              Robo competition
-            </h2>
+            <Link to={"/roboCompetetion"}>
+              <h2 className=" text-3xl  flex justify-center m-8  font-semibold">
+                Robo competetion
+              </h2>
+            </Link>
           </li>
           <li>
-            <h2 className="text-xl sm:text-2xl md:text-3xl text-center m-4 sm:m-6 md:m-8 font-semibold">
-              Coding contest
-            </h2>
+            <Link to={"/CodingContest"}>
+              <h2 className=" text-3xl mb-8 flex justify-center m-8  font-semibold">
+                Coding contest
+              </h2>
+            </Link>
           </li>
         </ul>
       </div>
