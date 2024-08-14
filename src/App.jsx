@@ -1,8 +1,8 @@
 import "./App.css";
-import HackathonPage from "./Components/HackathonPage";
+import HackathonPage from "./components/HackathonPage";
 import { Routes, Route } from "react-router-dom";
 import Main from "./MainPage";
-import Registration from "../src/Components/Registration"
+import Registration from "./components/Registration"
 function App() {
   return (
     <>
