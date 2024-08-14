@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Events = () => {
   return (
-    <section className="bg-indigo-950   h-screen *: text-white  ">
+    <section className="h-screen *: text-white  ">
       <div className="flex-col justify-center ">
         <h1 className="text-8xl flex justify-center font-bold p-6  ">Events</h1>
         <ul>
