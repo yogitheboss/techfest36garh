@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Jane Smith",
+        "role": "Technical Incharge",
+        "email": "jane.smith@example.com",
+        "phoneNumber": "+1-555-123-4567"
+    },
+    {
+        "id": 2,
+        "name": "John Doe",
+        "role": "Event Incharge",
+        "email": "john.doe@example.com",
+        "phoneNumber": "+1-555-987-6543"
+    },
+    {
+        "id": 3,
+        "name": "Alice Johnson",
+        "role": "Logistics Incharge",
+        "email": "alice.johnson@example.com",
+        "phoneNumber": "+1-555-456-7890"
+    },
+    {
+        "id": 4,
+        "name": "Bob Williams",
+        "role": "Security Incharge",
+        "email": "bob.williams@example.com",
+        "phoneNumber": "+1-555-321-9876"
+    },
+    {
+        "id": 5,
+        "name": "Emily Davis",
+        "role": "Hospitality Incharge",
+        "email": "emily.davis@example.com",
+        "phoneNumber": "+1-555-654-3210"
+    }
+]
