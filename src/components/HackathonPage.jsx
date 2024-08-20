@@ -12,12 +12,11 @@ import modelImage from "../assets/working_model.png";
 import hackathonImage from "../assets/hackathon.jpg";
 import quizImage from "../assets/quiz.jpeg";
 
-const HackathonPage = () => {
-  const { tab } = useParams();
+const HackathonPage = ({eventSelected,setEvent}) => {
   const [loading, setLoading] = useState(true);
   const [backgroundImage, setBackgroundImage] = useState(null);
-  const event = eventsData.find((event) => event.slug === tab);
-
+  const event = eventsData.find((event) => event.slug === eventSelected);
+  console.log(event);
   // Map event slugs to imported images
   const imageMap = {
     coding: codingImage,
@@ -30,7 +29,7 @@ const HackathonPage = () => {
   };
 
   useEffect(() => {
-    if (event) {
+    if (event?.slug) {
       const image = imageMap[event.slug];
       if (image) {
         setBackgroundImage(image);
@@ -59,11 +58,8 @@ const HackathonPage = () => {
           </h1>
           <div
             id="card"
-            className="rounded-md p-6 border-2 border-white bg-black bg-opacity-60 backdrop-blur-md mx-auto max-w-lg text-center"
+            className="rounded-md p-6 border-2 border-white bg-black bg-opacity-60 backdrop-blur-md mx-auto max-w-lg text-center text-lg"
           >
-            <p className="text-xl font-semibold mb-2">
-              {event.name}
-            </p>
             <p className="mb-2">mode : {event.location}</p>
             <p className="mb-2">Date: {event.date}</p>
             <p>{event.description}</p>

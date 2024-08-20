@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { Link } from "react-router-dom";
 
-const Tech36 = () => {
+const Tech36 = ({ setEvent }) => {
   const calculateTimeLeft = () => {
     const eventDate = new Date("2024-09-17T00:00:00"); // Set the event start date
     const currentTime = new Date();
@@ -108,21 +108,32 @@ const Tech36 = () => {
           </div>
           <div
             ref={dropdownRef}
-            className={`absolute top-0 left-0 bg-slate-800 text-white rounded-md shadow-lg transition-transform transform ${isDropdownOpen ? "translate-x-0" : "-translate-x-full"
-              } h-screen w-screen z-50`} // Ensure it's on top of other elements
+            className={`absolute top-0 left-0 bg-slate-800 text-white rounded-md shadow-lg transition-transform transform ${
+              isDropdownOpen ? "translate-x-0" : "-translate-x-full"
+            } h-screen w-screen z-50`} // Ensure it's on top of other elements
           >
             {/* Close Button */}
-            <div className="absolute top-4 right-20 lg:text-8xl sm:text-3xl md:text-7xl cursor-pointer" onClick={toggleDropdown}>
+            <div
+              className="absolute top-10 right-12 text-3xl lg:text-8xl sm:text-5xl md:text-7xl cursor-pointer"
+              onClick={toggleDropdown}
+            >
               &times;
             </div>
             <ul className="flex flex-col p-8 h-full">
-              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">
-                <Link to="/" className="w-full" onClick={toggleDropdown}>Home</Link>
+              <li
+                className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
+                onClick={() => {
+                  toggleDropdown();
+                  setEvent(null);
+                }}
+              >
+                Home
               </li>
               <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">
                 About
               </li>
-              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
+              <li
+                className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
                 onClick={() => handleScrollToRegister("events")}
               >
                 Events
@@ -133,8 +144,14 @@ const Tech36 = () => {
               >
                 Register
               </li>
-              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">
-                <Link to={"/contact"} className="w-full"onClick={toggleDropdown}>Contact</Link>
+              <li
+                className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
+                onClick={() => {
+                  toggleDropdown();
+                  setEvent("contact");
+                }}
+              >
+                Contact
               </li>
             </ul>
           </div>

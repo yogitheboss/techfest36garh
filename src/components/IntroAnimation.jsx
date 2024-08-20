@@ -28,9 +28,9 @@ function IntroAnimation() {
   }, [container]);
 
   return (
-    <div className="relative snap-start	h-screen" ref={container}>
+    <div className="relative snap-start	h-fit w-screen" ref={container}>
       <div
-        className=" flex flex-col place-items-center justify-center p-4 "
+        className=" flex flex-col place-items-center p-4 "
         id="welcome-container"
       >
         <h1

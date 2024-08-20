@@ -19,7 +19,7 @@ const Carousel = () => {
   ];
 
   return (
-    <div className="carousel w-full max-w-lg h-64 sm:h-72 md:h-80 lg:h-96 relative flex m-8 gap-4 overflow-hidden">
+    <div className="carousel w-full max-w-lg h-64 sm:h-60 md:h-80 lg:h-96 relative flex m-8 gap-4 overflow-hidden mb-10 md:mb-20">
       {images?.map((image, index) => {
         return (
           <div

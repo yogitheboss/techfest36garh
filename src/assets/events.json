@@ -37,10 +37,10 @@
     },
     {
         "name": "Working model demonstration by Companies",
-        "slug": "model",
+        "slug": "model_company",
         "date": "2024-11-15",
         "location": "online",
-        "description": "A showcase event where students demonstrate their working models and prototypes. An opportunity to display practical applications of theoretical concepts.",
+        "description": "A showcase event where companies demonstrate their working models and prototypes. An opportunity to display practical applications of theoretical concepts.",
         "image": "working_model.png",
         "file": "/public/Model_Presentation.docx"
     },
