@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { Link } from "react-router-dom";
 
 const Tech36 = () => {
   const calculateTimeLeft = () => {
@@ -32,6 +33,14 @@ const Tech36 = () => {
 
     return () => clearInterval(timer);
   }, []);
+
+  const handleScrollToRegister = (name) => {
+    const registerSection = document.getElementById(name);
+    if (registerSection) {
+      registerSection.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsDropdownOpen(false); // Close the dropdown after scrolling
+  };
 
   useEffect(() => {
     if (isDropdownOpen) {
@@ -85,7 +94,7 @@ const Tech36 = () => {
 
   return (
     <div
-      className="min-h-screen bg-[#0E1111] text-white font-sans"
+      className="min-h-screen w-screen bg-[#0E1111] text-white font-sans snap-start"
       ref={containerRef}
     >
       {/* Top Navbar */}
@@ -99,19 +108,34 @@ const Tech36 = () => {
           </div>
           <div
             ref={dropdownRef}
-            className={`absolute top-0 left-0 bg-slate-800 text-white rounded-md shadow-lg transition-transform transform ${
-              isDropdownOpen ? "translate-x-0" : "-translate-x-full"
-            } h-screen w-screen z-50`} // Ensure it's on top of other elements
+            className={`absolute top-0 left-0 bg-slate-800 text-white rounded-md shadow-lg transition-transform transform ${isDropdownOpen ? "translate-x-0" : "-translate-x-full"
+              } h-screen w-screen z-50`} // Ensure it's on top of other elements
           >
             {/* Close Button */}
-            <div className="absolute top-4 right-4 text-3xl cursor-pointer" onClick={toggleDropdown}>
+            <div className="absolute top-4 right-20 lg:text-8xl sm:text-3xl md:text-7xl cursor-pointer" onClick={toggleDropdown}>
               &times;
             </div>
             <ul className="flex flex-col p-8 h-full">
-              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">Home</li>
-              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">About</li>
-              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">Events</li>
-              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">Contact</li>
+              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">
+                <Link to="/" className="w-full" onClick={toggleDropdown}>Home</Link>
+              </li>
+              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">
+                About
+              </li>
+              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
+                onClick={() => handleScrollToRegister("events")}
+              >
+                Events
+              </li>
+              <li
+                className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
+                onClick={() => handleScrollToRegister("register")}
+              >
+                Register
+              </li>
+              <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">
+                <Link to={"/contact"} className="w-full"onClick={toggleDropdown}>Contact</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -123,7 +147,7 @@ const Tech36 = () => {
           className="text-base font-semibold text-center sm:text-lg md:text-xl lg:text-2xl"
           id="college-name"
         >
-          GOVERNMENT ENGINEERING COLLEGE RAIPUR
+          Directorate of Technical Education
         </h1>
         <p
           className="text-base italic text-center sm:text-lg md:text-xl lg:text-2xl"
@@ -136,7 +160,7 @@ const Tech36 = () => {
       {/* Main Event Title */}
       <div className="flex flex-col items-center justify-center text-center p-8 bg-black pb-20">
         <h1
-          className="text-6xl font-bold text-red-600 tracking-wider sm:text-7xl md:text-8xl lg:text-9xl"
+          className="text-6xl font-bold text-red-600 tracking-wider sm:text-7xl md:text-8xl lg:text-[10vw]"
           id="tech-title"
         >
           TECH 36

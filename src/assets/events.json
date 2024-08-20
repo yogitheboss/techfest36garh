@@ -1,72 +1,74 @@
 [
     {
-        "name": "CodingContest",
+        "name": "Coding Contest",
+        "slug": "coding",
         "date": "2024-09-15",
         "location": "online",
         "description": "A competitive event where participants solve coding challenges within a set timeframe. Showcase your programming skills and compete for prizes.",
-        "image": "coding-contest.jpg",
-        "file":"/public/Coding Contest Rule.docx"
+        "image": "coding.jpg",
+        "file": "/public/Coding Contest Rule.docx"
     },
     {
-        "name": "roboCompetetion",
+        "name": "Robo Competition",
+        "slug": "robo",
         "date": "2024-10-01",
         "location": "online",
         "description": "A competition where teams build and program robots to complete specific tasks. Perfect for robotics enthusiasts and engineers.",
-        "image": "robot-competition.jpg",
-        "file":"/public/Robo Hurdle Race.docx"
+        "image": "robo.jpeg",
+        "file": "/public/Robo Hurdle Race.docx"
     },
     {
-        "name": "Research",
+        "name": "Student Research Papers",
+        "slug": "research",
         "date": "2024-10-20",
         "location": "online",
         "description": "An academic conference where students present their research papers. A platform for sharing innovative ideas and findings.",
-        "image": "research-papers-conferen",
-        "file":"/public/paper_presentation.docx"
+        "image": "discussion.jpg",
+        "file": "/public/paper_presentation.docx"
     },
     {
-        "name": "Ideapitching",
+        "name": "Idea pitching",
+        "slug": "idea",
         "date": "2024-11-05",
         "location": "online",
         "description": "A pitching event where students present their innovative ideas to a panel of judges and potential investors. Great for those looking to turn ideas into reality.",
-        "image": "/public/Idea Pitching.docx",
+        "image": "idea.jpeg",
         "file": "/public/Idea Pitching.docx"
     },
     {
-        "name": "model",
+        "name": "Working model demonstration by Companies",
+        "slug": "model",
         "date": "2024-11-15",
         "location": "online",
         "description": "A showcase event where students demonstrate their working models and prototypes. An opportunity to display practical applications of theoretical concepts.",
-        "image": "/public/Model_Presentation.docx",
+        "image": "working_model.png",
         "file": "/public/Model_Presentation.docx"
     },
     {
-        "name": "hackathon",
+        "name": "Working model demonstration by Students",
+        "slug": "model",
+        "date": "2024-11-15",
+        "location": "online",
+        "description": "A showcase event where students demonstrate their working models and prototypes. An opportunity to display practical applications of theoretical concepts.",
+        "image": "working_model.png",
+        "file": "/public/Model_Presentation.docx"
+    },
+    {
+        "name": "Hackathon",
+        "slug": "hackathon",
         "date": "2024-12-01",
         "location": "online",
         "description": "A coding competition where teams develop software solutions in a 48-hour sprint. Ideal for collaborative problem-solving and innovation.",
         "image": "hackathon.jpg",
-        "file":"/public/Hackathon Rules 14.08.24.docx"
+        "file": "/public/Hackathon Rules 14.08.24.docx"
     },
     {
-        "name": "Webinar on Robotics",
-        "date": "2024-12-10",
-        "location": "online",
-        "description": "An online seminar focused on the latest trends and technologies in robotics. Learn from industry experts and gain valuable insights.",
-        "image": "webinar-robotics.jpg"
-    },
-    {
-        "name": "Innovation Fair",
-        "date": "2024-12-20",
-        "location": "online",
-        "description": "A virtual fair showcasing innovative projects and research by students. A platform to explore cutting-edge ideas and solutions.",
-        "image": "innovation-fair.jpg"
-    },
-    {
-        "name": "Technicalquiz",
+        "name": "Technical quiz",
+        "slug": "techquiz",
         "date": "2024-12-20",
         "location": "online",
         "description": "A quiz competition focused on technical knowledge and problem-solving skills. Test your understanding of various technical concepts and compete for prizes.",
-        "image": "innovation-fair.jpg",
-        "file":"/public/TECH QUIZ_1-1.docx"
+        "image": "quiz.jpeg",
+        "file": "/public/TECH QUIZ_1-1.docx"
     }
 ]

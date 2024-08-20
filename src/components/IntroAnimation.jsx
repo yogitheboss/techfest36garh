@@ -14,37 +14,35 @@ function IntroAnimation() {
       duration: 1,
       y: "+=50",
       stagger: 0.5,
-    }).from([".carousel"],{
+    }).from([".carousel"], {
       opacity: 0,
       duration: 1,
       y: "+=50",
       stagger: 0.5,
-    }).from(["button"],{
+    }).from(["button"], {
       opacity: 0,
       duration: 1,
       y: "+=50",
       stagger: 0.5,
-    },"-=0.5");
+    }, "-=0.5");
   }, [container]);
 
   return (
-    <div className="relative" ref={container}>
+    <div className="relative snap-start	h-screen" ref={container}>
       <div
         className=" flex flex-col place-items-center justify-center p-4 "
         id="welcome-container"
       >
         <h1
           className="text-white
-        text-5xl md:text-9xl font-bold"
+        text-3xl md:text-5xl font-bold"
           id="welcome"
         >
-          Tech 36
+          Snapshots of Tech 36
         </h1>
-        <p className="p-3 md:text-3xl md:text-2xl text-gray-300" id="intro">
-          Technical festival of Technical Education Chhattisgarh
-        </p>
-        <Carousel />
         
+        <Carousel />
+
       </div>
     </div>
   );

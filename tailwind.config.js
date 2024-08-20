@@ -11,5 +11,16 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.scroll-snap-type-y-mandatory': {
+          'scroll-snap-type': 'y mandatory',
+        },
+        '.scroll-snap-align-start': {
+          'scroll-snap-align': 'start',
+        },
+      });
+    },
+  ],
 }

@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* Add custom scroll snapping classes */
+.scroll-snap-type-y-mandatory {
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-snap-align-start {
+  scroll-snap-align: start;
+}
+
+/* Ensure you have custom CSS rules if Tailwind doesn't cover specific properties */
+.containered {
+    @apply h-screen overflow-y-scroll scroll-snap-type-y-mandatory; /* Full height, vertical scroll, snap type */
+  }
+  
+  .section {
+    @apply h-screen flex items-center justify-center text-white; /* Full height sections, center content */
+    scroll-snap-align: start; /* Custom property for scroll snapping */
+  }
+  
