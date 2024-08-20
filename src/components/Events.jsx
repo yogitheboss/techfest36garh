@@ -43,8 +43,9 @@ const Events = () => {
       </div>
 
       {/* Register as Volunteer Card */}
+      <div className="min-h-screen min-w-full">
       <div
-        className="flex justify-center w-full max-w-3xl px-4 py-10 mt-10"
+        className="flex justify-center  w-full max-w-3xl px-4 py-10 mt-10"
         id="register"
       >
         <div
@@ -93,6 +94,8 @@ const Events = () => {
           </div>
         </div>
       </div>
+      </div>
+      
     </section>
   );
 };
