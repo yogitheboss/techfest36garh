@@ -9,7 +9,7 @@ const Events = () => {
   const [event, setEvent] = useState(null);
   return (
     <section
-      className="min-h-screen h-fit snap-start text-white flex flex-col items-center mt-20"
+      className="min-h-screen h-fit snap-start text-white flex flex-col items-center mt-20 pt-10"
       id="events"
     >
       {/* Heading Section */}
