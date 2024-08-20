@@ -110,7 +110,7 @@ const Tech36 = ({ setEvent }) => {
             ref={dropdownRef}
             className={`absolute top-0 left-0 bg-slate-800 text-white rounded-md shadow-lg transition-transform transform ${
               isDropdownOpen ? "translate-x-0" : "-translate-x-full"
-            } h-screen w-screen z-50`} // Ensure it's on top of other elements
+            } h-screen w-1/2 z-50`} // Ensure it's on top of other elements
           >
             {/* Close Button */}
             <div

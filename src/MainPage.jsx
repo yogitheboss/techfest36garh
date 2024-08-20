@@ -14,7 +14,7 @@ const Main = () => {
       trigger: ".containered",
       start: "top top",
       end: "bottom bottom",
-      pin: true, // Optional: pins the container during scroll
+      pin: false, // Optional: pins the container during scroll
       scrub: true,
       snap: {
         snapTo: "sections", // Snaps to the start of each section
@@ -27,7 +27,7 @@ const Main = () => {
   }, []);
 
   return (
-    <div className="containered bg-[#0E1111]">
+    <div className="containered bg-[#0E1111] scroll-smooth">
       <section className="section tech36 ">
         <Tech36 />
       </section>
