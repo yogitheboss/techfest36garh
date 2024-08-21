@@ -159,9 +159,9 @@ const Tech36 = ({ setEvent }) => {
       </div>
 
       {/* College Name & Presents */}
-      <div className="flex justify-center flex-col place-items-center pb-4">
+      <div className="flex justify-center flex-col place-items-center py-4 mt-10">
         <h1
-          className="text-base font-semibold text-center sm:text-lg md:text-xl lg:text-2xl"
+          className="text-base font-semibold text-center sm:text-lg md:text-xl lg:text-2xl "
           id="college-name"
         >
           Directorate of Technical Education
@@ -183,7 +183,7 @@ const Tech36 = ({ setEvent }) => {
           TECH 36
         </h1>
         <p
-          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-4"
+          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-10"
           id="tech-desc"
         >
           Technical festival of Technical Education Chhattisgarh

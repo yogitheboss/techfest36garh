@@ -19,7 +19,7 @@
   }
   
   .section {
-    @apply h-screen flex items-center justify-center text-white; /* Full height sections, center content */
+    @apply  flex items-center justify-center text-white; /* Full height sections, center content */
     scroll-snap-align: start; /* Custom property for scroll snapping */
   }
   
