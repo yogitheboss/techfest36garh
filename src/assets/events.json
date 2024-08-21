@@ -15,7 +15,7 @@
         "location": "online",
         "description": "A competition where teams build and program robots to complete specific tasks. Perfect for robotics enthusiasts and engineers.",
         "image": "robo.jpeg",
-        "file": "/public/rhr.docx"
+        "file": "/assets/rhr.docx"
     },
     {
         "name": "Student Research Papers",
