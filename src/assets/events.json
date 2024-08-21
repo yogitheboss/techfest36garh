@@ -6,7 +6,7 @@
         "location": "online",
         "description": "A competitive event where participants solve coding challenges within a set timeframe. Showcase your programming skills and compete for prizes.",
         "image": "coding.jpg",
-        "file": "/public/ccr.docx"
+        "file": "/ccr.docx"
     },
     {
         "name": "Robo Competition",
@@ -24,7 +24,7 @@
         "location": "online",
         "description": "An academic conference where students present their research papers. A platform for sharing innovative ideas and findings.",
         "image": "discussion.jpg",
-        "file": "/public/pp.docx"
+        "file": "/pp.docx"
     },
     {
         "name": "Idea pitching",
@@ -33,7 +33,7 @@
         "location": "online",
         "description": "A pitching event where students present their innovative ideas to a panel of judges and potential investors. Great for those looking to turn ideas into reality.",
         "image": "idea.jpeg",
-        "file": "/public/ip.docx"
+        "file": "/ip.docx"
     },
     {
         "name": "Working model demonstration by Companies",
@@ -42,7 +42,7 @@
         "location": "online",
         "description": "A showcase event where companies demonstrate their working models and prototypes. An opportunity to display practical applications of theoretical concepts.",
         "image": "working_model.png",
-        "file": "/public/mp.docx"
+        "file": "/mp.docx"
     },
     {
         "name": "Working model demonstration by Students",
@@ -51,7 +51,7 @@
         "location": "online",
         "description": "A showcase event where students demonstrate their working models and prototypes. An opportunity to display practical applications of theoretical concepts.",
         "image": "working_model.png",
-        "file": "/public/mp.docx"
+        "file": "/mp.docx"
     },
     {
         "name": "Hackathon",
@@ -60,7 +60,7 @@
         "location": "online",
         "description": "A coding competition where teams develop software solutions in a 48-hour sprint. Ideal for collaborative problem-solving and innovation.",
         "image": "hackathon.jpg",
-        "file": "/public/hr.docx"
+        "file": "/hr.docx"
     },
     {
         "name": "Technical quiz",
@@ -69,6 +69,6 @@
         "location": "online",
         "description": "A quiz competition focused on technical knowledge and problem-solving skills. Test your understanding of various technical concepts and compete for prizes.",
         "image": "quiz.jpeg",
-        "file": "/public/tq.docx"
+        "file": "/tq.docx"
     }
 ]
