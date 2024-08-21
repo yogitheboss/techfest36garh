@@ -9,7 +9,7 @@ const Events = () => {
   const [event, setEvent] = useState(null);
   return (
     <div
-      className="h-full snap-start text-white flex flex-col items-center mt-20 pt-10"
+      className="h-full snap-start text-white flex flex-col items-center "
       id="events"
     >
       {/* Heading Section */}
