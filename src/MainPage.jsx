@@ -4,7 +4,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import IntroAnimation from "./components/IntroAnimation";
 import Events from "./components/Events";
 import Tech36 from "./components/Tech36";
-
+import Contact from "./components/Contact.jsx";
 gsap.registerPlugin(ScrollTrigger);
 
 const Main = () => {
@@ -20,7 +20,7 @@ const Main = () => {
         snapTo: "sections", // Snaps to the start of each section
         duration: { min: 0.1, max: 0.3 },
         delay: 0.1,
-        ease: "power1.inOut"
+        ease: "power1.inOut",
       },
       // Optional: You might need to adjust end trigger or other parameters
     });
@@ -31,11 +31,15 @@ const Main = () => {
       <section className="section tech36 ">
         <Tech36 />
       </section>
+
+      <section className="section events ">
+        <Events />
+      </section>
       <section className="section introAnimation  ">
         <IntroAnimation />
       </section>
-      <section className="section events ">
-        <Events  />
+      <section className="section contact text-black">
+        <Contact />
       </section>
     </div>
   );
