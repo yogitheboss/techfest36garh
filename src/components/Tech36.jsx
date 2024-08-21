@@ -114,7 +114,7 @@ const Tech36 = ({ setEvent }) => {
           >
             {/* Close Button */}
             <div
-              className="absolute top-10 right-12 text-3xl lg:text-8xl sm:text-5xl md:text-7xl cursor-pointer"
+              className="absolute top-4 sm:top-2 md:top-10  right-6 md:right-12 text-3xl lg:text-8xl sm:text-5xl md:text-7xl cursor-pointer"
               onClick={toggleDropdown}
             >
               &times;
