@@ -147,8 +147,7 @@ const Tech36 = ({ setEvent }) => {
               <li
                 className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
                 onClick={() => {
-                  toggleDropdown();
-                  setEvent("contact");
+                  handleScrollToRegister("contact")
                 }}
               >
                 Contact
