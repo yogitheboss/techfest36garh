@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Tech36 = ({ setEvent }) => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2024-09-17T00:00:00"); // Set the event start date
+    const eventDate = new Date("2024-09-19T00:00:00"); // Set the event start date
     const currentTime = new Date();
     const difference = eventDate - currentTime;
 
@@ -211,7 +211,7 @@ const Tech36 = ({ setEvent }) => {
           </div>
           <div className="text-xs sm:text-sm md:text-base font-light flex flex-col justify-center items-center pl-4">
             <span>2024 Sept</span>
-            <span>17th - 19th</span>
+            <span>19th - 20th</span>
           </div>
         </div>
       </div>
