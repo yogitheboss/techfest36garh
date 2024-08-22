@@ -83,7 +83,7 @@ const Events = () => {
             Register as Participant
             </h1>
             <Link
-              to="https://forms.gle/HA446fA64Xf3Haxc8"
+              to="https://forms.gle/1RqtamsvEbRuZeb39"
               target="_blank"
               rel="noopener noreferrer"
             >
