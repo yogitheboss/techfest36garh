@@ -108,7 +108,7 @@ const Tech36 = ({ setEvent }) => {
           </div>
           <div
             ref={dropdownRef}
-            className={`absolute top-0 left-0 bg-slate-800 text-white rounded-md shadow-lg transition-transform transform ${
+            className={`absolute top-0 left-0 bg-[#0E1111] text-white rounded-md shadow-lg transition-transform transform ${
               isDropdownOpen ? "translate-x-0" : "-translate-x-full"
             } h-screen w-1/2 z-50`} // Ensure it's on top of other elements
           >
@@ -147,8 +147,7 @@ const Tech36 = ({ setEvent }) => {
               <li
                 className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
                 onClick={() => {
-                  toggleDropdown();
-                  setEvent("contact");
+                  handleScrollToRegister("contact")
                 }}
               >
                 Contact

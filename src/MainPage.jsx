@@ -11,7 +11,6 @@ const Main = () => {
       <section className="section tech36 ">
         <Tech36 />
       </section>
-
       <section className="section events ">
         <Events />
       </section>

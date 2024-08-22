@@ -48,7 +48,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="md:max-w-[50vw] w-full mx-auto p-4 py-10">
+    <div className="md:max-w-[50vw] w-full mx-auto p-4 py-10" id="contact">
       <h1 className="text-2xl font-bold text-center mb-6">
         Event Registration Assistance
       </h1>
