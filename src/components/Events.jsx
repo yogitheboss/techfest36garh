@@ -83,6 +83,12 @@ const Events = () => {
                     institutions as they compete for the title of Tech36 Dance
                     Champions!
                   </p>
+                  <a
+                    href={"/cultural_rules.docx"}
+                    className="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+                  >
+                    Download rules and regulations
+                  </a>
                 </div>
               </div>
             )}
@@ -120,6 +126,12 @@ const Events = () => {
                     an unforgettable evening of music as these talented singers
                     aim to become the Tech36 Group Song Champions!
                   </p>
+                  <a
+                    href={"/cultural_rules.docx"}
+                    className="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+                  >
+                    Download rules and regulations
+                  </a>
                 </div>
               </div>
             )}
