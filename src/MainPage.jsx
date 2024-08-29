@@ -7,7 +7,7 @@ import Contact from "./components/Contact.jsx";
 
 const Main = () => {
   return (
-    <div className="containered bg-[#0E1111] scroll-smooth">
+    <div className="containered bg-[#1e1e1e] scroll-smooth">
       <section className="section tech36 ">
         <Tech36 />
       </section>
