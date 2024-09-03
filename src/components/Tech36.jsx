@@ -208,7 +208,7 @@ const Tech36 = ({ setEvent }) => {
           </div>
         </div>
       </div> */}
-      <div className="container">
+      <div>
         <h3 id="coming"className="flex justify-center items-center text-4xl mt-10">
           Coming Soon
         </h3>
