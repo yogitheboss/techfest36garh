@@ -8,12 +8,21 @@ const EventData = ({ event }) => {
       </h3>
       <p className="text-gray-400 mb-2">{event.description}</p>
       <p className="text-gray-400 mb-2">
-        <span className="font-semibold text-gray-300">Date:</span> {event.date}
+        <span className="font-semibold text-gray-300">Event Date:</span> {event.date}
+      </p>
+      <p className="text-gray-400 mb-2">
+        <span className="font-semibold text-gray-300">Registration Deadline:</span>{" "}
+        {event.deadline}
+      </p>
+      <p className="text-gray-400 mb-2">
+        <span className="font-semibold text-gray-300">Date of Acceptance:</span>{" "}
+        {event.acceptance_date}
       </p>
       <p className="text-gray-400 mb-2">
         <span className="font-semibold text-gray-300">Location:</span>{" "}
         {event.location}
       </p>
+
       <a
         href={event.file}
         className="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
