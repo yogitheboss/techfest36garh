@@ -91,7 +91,7 @@ const Events = () => {
                     <span className="font-semibold text-gray-300">
                       Location:
                     </span>{" "}
-                    Block C, GEC Raipur
+                    GEC Raipur
                   </p>
                   <a
                     href={"/cultural_rules.docx"}
@@ -144,7 +144,7 @@ const Events = () => {
                     <span className="font-semibold text-gray-300">
                       Location:
                     </span>{" "}
-                    Block C, GEC Raipur
+                    GEC Raipur
                   </p>
                   <a
                     href={"/cultural_rules.docx"}
