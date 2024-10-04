@@ -83,6 +83,16 @@ const Events = () => {
                     institutions as they compete for the title of Tech36 Dance
                     Champions!
                   </p>
+                  <p className="text-gray-400 mb-2">
+                    <span className="font-semibold text-gray-300">Date:</span>{" "}
+                    25th october
+                  </p>
+                  <p className="text-gray-400 mb-2">
+                    <span className="font-semibold text-gray-300">
+                      Location:
+                    </span>{" "}
+                    Block C, GEC Raipur
+                  </p>
                   <a
                     href={"/cultural_rules.docx"}
                     className="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
@@ -125,6 +135,16 @@ const Events = () => {
                     audience and judges with their musical prowess. Join us for
                     an unforgettable evening of music as these talented singers
                     aim to become the Tech36 Group Song Champions!
+                  </p>
+                  <p className="text-gray-400 mb-2">
+                    <span className="font-semibold text-gray-300">Date:</span>{" "}
+                    25th october
+                  </p>
+                  <p className="text-gray-400 mb-2">
+                    <span className="font-semibold text-gray-300">
+                      Location:
+                    </span>{" "}
+                    Block C, GEC Raipur
                   </p>
                   <a
                     href={"/cultural_rules.docx"}
