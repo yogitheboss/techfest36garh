@@ -85,7 +85,7 @@ const Events = () => {
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">Event Date:</span>{" "}
-                    25th october
+                    To be announced
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">
@@ -150,7 +150,7 @@ const Events = () => {
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">Event Date:</span>{" "}
-                    25th october
+                   To be announced
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">

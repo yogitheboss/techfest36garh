@@ -184,7 +184,7 @@ const Tech36 = ({ setEvent }) => {
       </div>
 
       {/* Countdown Timer */}
-      <div className="flex items-center justify-center text-center p-8 countdown-timer mt-10">
+      {/* <div className="flex items-center justify-center text-center p-8 countdown-timer mt-10">
         <div className="flex justify-between items-center space-x-4 text-3xl sm:text-4xl md:text-5xl font-mono rounded-lg w-full max-w-xl border-white border-2 border-solid bg-black p-4">
           <div className="flex flex-col items-center">
             <p>{timeLeft.days || "00"}</p>
@@ -207,12 +207,12 @@ const Tech36 = ({ setEvent }) => {
             <span>25th - 26th</span>
           </div>
         </div>
-      </div>
-      {/* <div>
+      </div> */}
+      <div>
         <h3 id="coming"className="flex justify-center items-center text-4xl mt-10">
           Coming Soon
         </h3>
-      </div> */}
+      </div>
     </div>
   );
 };
