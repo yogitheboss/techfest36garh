@@ -89,7 +89,8 @@ const Tech36 = ({ setEvent }) => {
         duration: 1,
         y: "+=30",
         stagger: 0.5,
-      }).from(["#coming"],{
+      })
+      .from(["#coming"], {
         opacity: 0,
         duration: 1,
         y: "+=30",
@@ -100,13 +101,15 @@ const Tech36 = ({ setEvent }) => {
   return (
     <div
       className="min-h-screen w-screen bg-[#1e1e1e] text-white font-sans snap-start"
-      ref={containerRef}>
+      ref={containerRef}
+    >
       {/* Top Navbar */}
       <div className="flex items-center justify-between p-4">
         <div className="">
           <div
             className="text-2xl font-bold mr-4 cursor-pointer"
-            onClick={toggleDropdown}>
+            onClick={toggleDropdown}
+          >
             ☰
           </div>
           <div
@@ -118,7 +121,8 @@ const Tech36 = ({ setEvent }) => {
             {/* Close Button */}
             <div
               className="absolute top-4 sm:top-2 md:top-10  right-6 md:right-12 text-3xl lg:text-8xl sm:text-5xl md:text-7xl cursor-pointer"
-              onClick={toggleDropdown}>
+              onClick={toggleDropdown}
+            >
               &times;
             </div>
             <ul className="flex flex-col p-8 h-full">
@@ -127,7 +131,8 @@ const Tech36 = ({ setEvent }) => {
                 onClick={() => {
                   toggleDropdown();
                   setEvent(null);
-                }}>
+                }}
+              >
                 Home
               </li>
               <li className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer">
@@ -135,19 +140,22 @@ const Tech36 = ({ setEvent }) => {
               </li>
               <li
                 className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
-                onClick={() => handleScrollToRegister("events")}>
+                onClick={() => handleScrollToRegister("events")}
+              >
                 Events
               </li>
               <li
                 className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
-                onClick={() => handleScrollToRegister("register")}>
+                onClick={() => handleScrollToRegister("register")}
+              >
                 Register
               </li>
               <li
                 className="p-6 text-3xl font-bold hover:bg-gray-700 cursor-pointer"
                 onClick={() => {
                   handleScrollToRegister("contact");
-                }}>
+                }}
+              >
                 Contact
               </li>
             </ul>
@@ -159,12 +167,14 @@ const Tech36 = ({ setEvent }) => {
       <div className="flex justify-center flex-col place-items-center py-4 mt-10">
         <h1
           className="text-base font-semibold text-center sm:text-lg md:text-xl lg:text-2xl "
-          id="college-name">
+          id="college-name"
+        >
           Directorate of Technical Education
         </h1>
         <h2
           className="text-base italic text-center sm:text-lg md:text-xl lg:text-2xl"
-          id="presents">
+          id="presents"
+        >
           presents
         </h2>
       </div>
@@ -172,13 +182,16 @@ const Tech36 = ({ setEvent }) => {
       {/* Main Event Title */}
       <div className="flex flex-col items-center justify-center text-center p-8 bg-[#161616] pb-20">
         <h1
-          className="text-6xl font-bold text-red-600 tracking-wider sm:text-7xl md:text-8xl lg:text-[10vw]"
-          id="tech-title">
-          TECH 36
+          className="text-3xl font-bold text-red-600 tracking-wider sm:text-7xl md:text-8xl lg:text-[9vw] "
+          id="tech-title"
+        >
+          <span>TECHFEST</span>{" "}
+          <span className="no-wrap">36 GARH</span>
         </h1>
         <p
-          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-10"
-          id="tech-desc">
+          className="text-xl flex-nowrap	 sm:text-2xl md:text-3xl lg:text-4xl mt-10"
+          id="tech-desc"
+        >
           Technical festival of Technical Education Chhattisgarh
         </p>
       </div>
@@ -209,7 +222,10 @@ const Tech36 = ({ setEvent }) => {
         </div>
       </div> */}
       <div>
-        <h3 id="coming"className="flex justify-center items-center text-4xl mt-10">
+        <h3
+          id="coming"
+          className="flex justify-center items-center text-4xl mt-10"
+        >
           Coming Soon
         </h3>
       </div>
