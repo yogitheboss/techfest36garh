@@ -162,11 +162,11 @@ const Tech36 = ({ setEvent }) => {
           id="college-name">
           Directorate of Technical Education
         </h1>
-        <p
+        <h2
           className="text-base italic text-center sm:text-lg md:text-xl lg:text-2xl"
           id="presents">
           presents
-        </p>
+        </h2>
       </div>
 
       {/* Main Event Title */}
@@ -202,7 +202,7 @@ const Tech36 = ({ setEvent }) => {
             <p>{timeLeft.seconds || "00"}</p>
             <p className="text-xs sm:text-sm md:text-base mt-2">SECONDS</p>
           </div>
-          <div className="text-xs sm:text-sm md:text-base font-light flex flex-col justify-center items-center pl-4">
+          <div className="text-xs sm:text-sm md:text-base font-light flex flex-col justify-center items-center ">
             <span>2024 October</span>
             <span>25th - 26th</span>
           </div>

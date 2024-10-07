@@ -56,27 +56,36 @@ const Contact = () => {
         If you are facing any issues with the registration process, please fill
         out the form below, and we will assist you as soon as possible.
       </p>
-      <p className="text-sm text-gray-600 mt-2">
+      <p className="text-sm text-gray-200 mt-2">
         Please note: You can only submit this form once per day. If you have
         already submitted your request today, the form will be disabled until
         tomorrow.
       </p>
 
       <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-4">
-        <label className="mt-4 text-lg">Name</label>
+        <label for="sender_name" className="mt-4 text-lg">
+          Name
+        </label>
         <input
+          id="sender_name"
           type="text"
           name="user_name"
           className="w-full text-slate-900 h-10 p-2 border border-gray-300 rounded focus:outline-none focus:border-green-500"
         />
-        <label className="mt-4 text-lg">Email</label>
+        <label className="mt-4 text-lg" for="email">
+          Email
+        </label>
         <input
+          id="email"
           type="email"
           name="user_email"
           className="w-full h-10 text-slate-900 p-2 border border-gray-300 rounded focus:outline-none focus:border-green-500"
         />
-        <label className="mt-4 text-lg">Message</label>
+        <label className="mt-4 text-lg" for="message">
+          Message
+        </label>
         <textarea
+          id="message"
           name="message"
           className="w-full text-slate-900 h-24 p-2 border border-gray-300 rounded focus:outline-none focus:border-green-500"
         />
