@@ -38,7 +38,7 @@ function IntroAnimation() {
         text-3xl md:text-5xl font-bold"
           id="welcome"
         >
-          Snapshots of Tech 36
+          Snapshots of TECHFEST 36 GARH
         </h1>
         
         <Carousel />
