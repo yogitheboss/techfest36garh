@@ -95,6 +95,11 @@ const Tech36 = ({ setEvent }) => {
         duration: 1,
         y: "+=30",
         stagger: 0.5,
+      }).from(["#timeline"], {
+        opacity: 0,
+        duration: 1,
+        y: "+=30",
+        stagger: 0.5,
       });
   }, [containerRef]);
 
@@ -185,8 +190,7 @@ const Tech36 = ({ setEvent }) => {
           className="text-3xl font-bold text-red-600 tracking-wider sm:text-7xl md:text-8xl lg:text-[9vw] "
           id="tech-title"
         >
-          <span>TECHFEST</span>{" "}
-          <span className="no-wrap">36 GARH</span>
+          <span>TECHFEST</span> <span className="no-wrap">36 GARH</span>
         </h1>
         <p
           className="text-xl flex-nowrap	 sm:text-2xl md:text-3xl lg:text-4xl mt-10"
@@ -228,6 +232,14 @@ const Tech36 = ({ setEvent }) => {
         >
           Coming Soon
         </h3>
+      </div>
+      <div  id="timeline" className="flex justify-center items-center">
+        <a
+          href={"/timeline.pdf"}
+          className="inline-block mt-2 md:mt-6 bg-blue-500 text-white px-6 py-4 rounded-lg hover:bg-blue-700 text-lg md:text-2xl text-center lg:text-3xl"
+        >
+          Download Event Timeline
+        </a>
       </div>
     </div>
   );
