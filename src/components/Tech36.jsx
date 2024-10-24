@@ -241,6 +241,11 @@ const Tech36 = ({ setEvent }) => {
           Download Event Timeline
         </a>
       </div>
+      <h4
+      className="text-xl text-center mt-10 text-bold text-red-400"
+      >
+        Registration Deadline : 31st October 2024
+      </h4>
     </div>
   );
 };
