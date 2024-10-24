@@ -8,14 +8,14 @@
     "description": "A competitive event where participants solve coding challenges within a set timeframe. Showcase your programming skills and compete for prizes.",
     "image": "coding.jpg",
     "file": "/ccr.docx",
-    "deadline": "20th october"
+    "deadline": "31st october"
   },
   {
     "name": "Robo Competition",
     "slug": "robo",
     "date": "To be announced",
     "location": "GEC Raipur",
-    "deadline": "20th october",
+    "deadline": "31st october",
     "acceptance_date": "22nd october",
     "description": "A competition where teams build and program robots to complete specific tasks. Perfect for robotics enthusiasts and engineers.",
     "image": "robo.jpeg",
@@ -26,7 +26,7 @@
     "slug": "research",
     "date": "To be announced",
     "location": "GEC Raipur",
-    "deadline": "20th october",
+    "deadline": "31st october",
     "acceptance_date": "22nd october",
 
     "description": "An academic conference where students present their research papers. A platform for sharing innovative ideas and findings.",
@@ -38,7 +38,7 @@
     "slug": "idea",
     "date": "To be announced",
     "location": "GEC Raipur",
-    "deadline": "20th october",
+    "deadline": "31st october",
     "acceptance_date": "22nd october",
 
     "description": "A pitching event where students present their innovative ideas to a panel of judges and potential investors. Great for those looking to turn ideas into reality.",
@@ -50,7 +50,7 @@
     "slug": "model_company",
     "date": "To be announced",
     "location": "GEC Raipur",
-    "deadline": "20th october",
+    "deadline": "31st october",
     "acceptance_date": "22nd october",
 
     "description": "A showcase event where companies demonstrate their working models and prototypes. An opportunity to display practical applications of theoretical concepts.",
@@ -62,7 +62,7 @@
     "slug": "model",
     "date": "To be announced",
     "location": "GEC Raipur",
-    "deadline": "20th october",
+    "deadline": "31st october",
     "acceptance_date": "22nd october",
 
     "description": "A showcase event where students demonstrate their working models and prototypes. An opportunity to display practical applications of theoretical concepts.",
@@ -74,7 +74,7 @@
     "slug": "hackathon",
     "date": "To be announced",
     "location": "GEC Raipur",
-    "deadline": "20th october",
+    "deadline": "31st october",
     "acceptance_date": "22nd october",
 
     "description": "A coding competition where teams develop software solutions in a 48-hour sprint. Ideal for collaborative problem-solving and innovation.",
@@ -86,7 +86,7 @@
     "slug": "techquiz",
     "date": "To be announced",
     "location": "GEC Raipur",
-    "deadline": "20th october",
+    "deadline": "31st october",
     "acceptance_date": "22nd october",
 
     "description": "A quiz competition focused on technical knowledge and problem-solving skills. Test your understanding of various technical concepts and compete for prizes.",

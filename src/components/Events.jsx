@@ -91,7 +91,7 @@ const Events = () => {
                     <span className="font-semibold text-gray-300">
                       Registration Deadline:
                     </span>{" "}
-                    20th october
+                    31st october
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">
@@ -156,7 +156,7 @@ const Events = () => {
                     <span className="font-semibold text-gray-300">
                       Registration Deadline:
                     </span>{" "}
-                    20th october
+                    31st october
                   </p>{" "}
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">
