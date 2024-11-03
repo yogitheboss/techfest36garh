@@ -3,7 +3,8 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
-  const [isDisabled, setIsDisabled] = useState(false);
+  const [isDisabled, setIsDisabled] = useState(true); // Set to true initially
+  const [formValid, setFormValid] = useState(false); // Tracks if form inputs meet requirements
 
   useEffect(() => {
     // Check localStorage for the last submission time
@@ -19,6 +20,29 @@ const Contact = () => {
       }
     }
   }, []);
+
+  const validateForm = () => {
+    // Check that all required fields have appropriate length and valid email format
+    const name = form.current["user_name"].value.trim();
+    const email = form.current["user_email"].value.trim();
+    const message = form.current["message"].value.trim();
+  
+    // Regular expression for validating an email format
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  
+    // Check if name is non-empty, email follows correct format, and message is at least 10 characters
+    if (
+      name.length > 0 &&
+      email.length > 0 &&
+      emailPattern.test(email) &&
+      message.length >= 10
+    ) {
+      setFormValid(true);
+    } else {
+      setFormValid(false);
+    }
+  };
+  
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -47,6 +71,11 @@ const Contact = () => {
       );
   };
 
+  useEffect(() => {
+    // Update button disabled state based on form validity and submission cooldown
+    setIsDisabled(!formValid);
+  }, [formValid]);
+
   return (
     <div className="md:max-w-[50vw] w-full mx-auto p-4 py-10" id="contact">
       <h1 className="text-2xl font-bold text-center mb-6">
@@ -62,8 +91,13 @@ const Contact = () => {
         tomorrow.
       </p>
 
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-4">
-        <label for="sender_name" className="mt-4 text-lg">
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="flex flex-col space-y-4"
+        onChange={validateForm} // Trigger validation on form changes
+      >
+        <label htmlFor="sender_name" className="mt-4 text-lg">
           Name
         </label>
         <input
@@ -72,7 +106,7 @@ const Contact = () => {
           name="user_name"
           className="w-full text-slate-900 h-10 p-2 border border-gray-300 rounded focus:outline-none focus:border-green-500"
         />
-        <label className="mt-4 text-lg" for="email">
+        <label className="mt-4 text-lg" htmlFor="email">
           Email
         </label>
         <input
@@ -81,7 +115,7 @@ const Contact = () => {
           name="user_email"
           className="w-full h-10 text-slate-900 p-2 border border-gray-300 rounded focus:outline-none focus:border-green-500"
         />
-        <label className="mt-4 text-lg" for="message">
+        <label className="mt-4 text-lg" htmlFor="message">
           Message
         </label>
         <textarea
@@ -103,3 +137,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
