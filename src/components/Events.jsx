@@ -84,14 +84,16 @@ const Events = () => {
                     Champions!
                   </p>
                   <p className="text-gray-400 mb-2">
-                    <span className="font-semibold text-gray-300">Event Date:</span>{" "}
+                    <span className="font-semibold text-gray-300">
+                      Event Date:
+                    </span>{" "}
                     To be announced
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">
                       Registration Deadline:
                     </span>{" "}
-                    31st october
+                    30th November
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">
@@ -149,14 +151,16 @@ const Events = () => {
                     aim to become the Tech36 Group Song Champions!
                   </p>
                   <p className="text-gray-400 mb-2">
-                    <span className="font-semibold text-gray-300">Event Date:</span>{" "}
-                   To be announced
+                    <span className="font-semibold text-gray-300">
+                      Event Date:
+                    </span>{" "}
+                    To be announced
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">
                       Registration Deadline:
                     </span>{" "}
-                    31st october
+                    30th November
                   </p>{" "}
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">

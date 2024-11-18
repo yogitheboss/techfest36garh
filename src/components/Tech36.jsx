@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Tech36 = ({ setEvent }) => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2024-10-25T00:00:00"); // Set the event start date
+    const eventDate = new Date("2024-12-10T00:00:00"); // Set the event start date
     const currentTime = new Date();
     const difference = eventDate - currentTime;
 
@@ -95,7 +95,8 @@ const Tech36 = ({ setEvent }) => {
         duration: 1,
         y: "+=30",
         stagger: 0.5,
-      }).from(["#timeline"], {
+      })
+      .from(["#timeline"], {
         opacity: 0,
         duration: 1,
         y: "+=30",
@@ -201,7 +202,7 @@ const Tech36 = ({ setEvent }) => {
       </div>
 
       {/* Countdown Timer */}
-      {/* <div className="flex items-center justify-center text-center p-8 countdown-timer mt-10">
+      <div className="flex items-center justify-center text-center p-8 countdown-timer mt-10">
         <div className="flex justify-between items-center space-x-4 text-3xl sm:text-4xl md:text-5xl font-mono rounded-lg w-full max-w-xl border-white border-2 border-solid bg-black p-4">
           <div className="flex flex-col items-center">
             <p>{timeLeft.days || "00"}</p>
@@ -220,20 +221,20 @@ const Tech36 = ({ setEvent }) => {
             <p className="text-xs sm:text-sm md:text-base mt-2">SECONDS</p>
           </div>
           <div className="text-xs sm:text-sm md:text-base font-light flex flex-col justify-center items-center ">
-            <span>2024 October</span>
-            <span>25th - 26th</span>
+            <span>2024 December</span>
+            <span>10th-12th</span>
           </div>
         </div>
-      </div> */}
-      <div>
+      </div>
+      {/* <div>
         <h3
           id="coming"
           className="flex justify-center items-center text-2xl mt-10 md:text-4xl"
         >
           Coming Soon
         </h3>
-      </div>
-      <div  id="timeline" className="flex justify-center items-center">
+      </div> */}
+      <div id="timeline" className="flex justify-center items-center">
         <a
           href={"/timeline.pdf"}
           className="inline-block mt-2 md:mt-6 bg-blue-500 text-white px-6 py-4 rounded-lg hover:bg-blue-700 text-lg md:text-2xl text-center lg:text-3xl"
@@ -241,10 +242,8 @@ const Tech36 = ({ setEvent }) => {
           Download Event Timeline
         </a>
       </div>
-      <h4
-      className="text-xl text-center mt-10 text-bold text-red-400"
-      >
-        Registration Deadline : 31st October 2024
+      <h4 className="text-xl text-center mt-10 text-bold text-red-400">
+        Registration Deadline : 30th November 2024
       </h4>
     </div>
   );
