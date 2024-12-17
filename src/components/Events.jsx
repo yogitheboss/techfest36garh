@@ -99,7 +99,7 @@ const Events = () => {
                     <span className="font-semibold text-gray-300">
                       Date of Acceptance:
                     </span>{" "}
-                    22nd october
+                    2 December
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">
@@ -166,7 +166,7 @@ const Events = () => {
                     <span className="font-semibold text-gray-300">
                       Date of Acceptance:
                     </span>{" "}
-                    22nd october
+                    2 December
                   </p>
                   <p className="text-gray-400 mb-2">
                     <span className="font-semibold text-gray-300">
